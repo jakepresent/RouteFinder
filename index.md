@@ -1,26 +1,30 @@
-## Choosing the Right Climbing Route for You
+## Choosing the Right Sport Climbing Route for You
 
-Hello! For our group's final capstone project for CS 6730, our group has chosen to explore [OpenBeta's open source rock climbing dataset](https://github.com/OpenBeta/climbing-data). It contains climbing routes data from [MountainProject](https://www.mountainproject.com/) that has been extracted from an immense variety of locations all across the USA.
-
-We decided to use the skills we've gained from this class to try to find a way to help someone choose climbing routes that best suit their level of skill, whatever it may be.
-
-
-### Raw Data
-![](raw_data.jpg)
-
-This is a screenshot of the raw data that we were given. As you can see, each line corresponds to one climbing route in the USA. For each route, the data provided consists essentially of some geographic coordinate data, difficulty ranking information, and a textual review of the route.
-
-Our challenge is to find a way to synthesize this data into something that could provide some utility to a climber trying to test his or her skills.
+What does it take to become a better sport climber? If you could teleport to any climbing area in the United States, where should you go?
 
 ### Map View
 
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/map_routes/Dashboard1?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '850' height = '550' scrolling='yes' ></iframe>    
 
-Here is a map of all of the routes in the dataset, with the color of each point corresponding to the difficulty rating assigned to it. The distribution of the routes is not exactly surprising, with the vast majority of them seeming to be located around the Appalachians and the Rockies, depending on which coast you happen to live on.
+Take a look at this map of the more than 54,000 sport climbing routes entered in MountainProject, with the color of each point corresponding to the difficulty rating assigned to it. The distribution of the routes is not exactly surprising, with the vast majority of them seeming to be located around the Appalachians and the Rockies, depending on which coast you happen to live on.
 
-Unfortunately, while this view of the data is interesting, it doesn't give our hypothetical climber much of an idea of which route to pick. All it does is tell us where the easy routes are and where the hard routes are.
+Unfortunately, while this view of the data is interesting, it doesn't give our hypothetical climber much of an idea of which route to pick. With this many routes, there are likely infinite combinations of hold type, rock shape, and climbing style.  
 
-To solve this problem, we decided to drill down into the provided ratings and see if any broad patterns start to emerge.
+What differentiates a 5.8 from a 5.11?
+Technical skills? Raw strength? Endurance? Grip strength and form? How much of it is overcoming common fears like making dynamic moves, hanging upside down, or just a general unsafe feeling?
+
+### The Data
+
+Using data scraped from the MountainProject database in August 2020 hosted by openbeta.io, we've analyzed the climber-entered descriptions for each route to determine what skills a climber needs to posess to successfully climb at a higher level.
+
+Difficulty ratings for climbing routes range from 5.0 to 5.15, with +/- or a/b/c/d modifiers to further expand the scale. For simplicity, we’ve divided these into the following four groups:
+
+5.10a and below: Beginner
+5.10a/b through 5.10d: Intermediate
+5.11a-d: Advanced
+5.12a and above: Elite
+
+Route descriptions entered into MountainProject are packed with rock climbing slang that, while providing great opportunities for analysis, can be difficult for a newcomer to understand. Some words will be explained along the way, and we’ve included a brief glossary at the end for the rest.
 
 ### Keywords of Interest that We Identified
 
