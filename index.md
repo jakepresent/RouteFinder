@@ -24,7 +24,7 @@ To solve this problem, we decided to drill down into the provided ratings and se
 
 ### Keywords of Interest that We Identified
 
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/keywords_frequency/Dashboard1?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '550' height = '650' scrolling='yes' ></iframe> 
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/climbinganalysis2/Dashboard1?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '550' height = '650' scrolling='yes' ></iframe> 
 
 We began our analysis of the reviews by filtering out filler words, such as prepositions, articles, etc. Then, we identified 88 different keywords from the reviews. The number of times each word appears in the dataset is shown above.
 
@@ -32,7 +32,7 @@ However, this still isn't exactly the most helpful in terms of our ultimate goal
 
 ### Categorizing the Routes
 
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/climbinganalysis2/Dashboard1?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '550' height = '550' scrolling='yes' ></iframe> 
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/climbinganalysis2/Dashboard2?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '550' height = '550' scrolling='yes' ></iframe> 
 
 
 
@@ -40,4 +40,4 @@ However, this still isn't exactly the most helpful in terms of our ultimate goal
 ### Kewords Common Between Categories
 
 
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/climbinganalysis2/Dashboard2?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '850' height = '650' scrolling='yes' ></iframe>    
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/climbinganalysis2/Dashboard3?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '850' height = '650' scrolling='yes' ></iframe>    
