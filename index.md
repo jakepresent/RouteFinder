@@ -58,10 +58,11 @@ seems to be associated with more challenging routes.
 
 Crimp, Jug, Knob & Pinch, Pocket, Sloper
 As you can see in the above view, there are different types of holds that are present in the difficulty categories.
-A "hold" is a rock climbing term for the places on the rock surface that are shaped in a way for a climber to attach themselves to the route
+A **hold** is a rock climbing term for the places on the rock surface that are shaped in a way for a climber to attach themselves to the route
 and propel themselves higher. 
-A crimp is a type of hold that consists of a small edge that can support the tips of a climber's fingers.
-Jugs are large, deep, concave holds that are relatively easy to grab with one or both hands.
-A knob or pinch hold can be "pinched" between a climber's fingers and thumb, and requires intense strength to grasp.
-Pockets are holes within a wall that a climber can use to insert their hand or fingers.
-Slopers are large, round holds that can be difficult to grip and do not have sharply defined edges.
+
+A **crimp** is a type of hold that consists of a small edge that can support the tips of a climber's fingers.
+**Jugs** are large, deep, concave holds that are relatively easy to grab with one or both hands.
+A **knob or pinch** hold can be "pinched" between a climber's fingers and thumb, and requires intense strength to grasp.
+**Pockets** are holes within a wall that a climber can use to insert their hand or fingers.
+**Slopers** are large, round holds that can be difficult to grip and do not have sharply defined edges.
