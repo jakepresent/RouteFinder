@@ -35,7 +35,7 @@ We began our analysis by dividing all the routes into four different cateoriges 
 
 ### Keywords of Interest that We Identified
 
-<iframe seamless frameborder="0" src="https://public.tableau.com/shared/QKP4DRBBW?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '550' height = '650' scrolling='yes' ></iframe> 
+<iframe seamless frameborder="0" src="https://public.tableau.com/shared/QKP4DRBBW?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '850' height = '550' scrolling='yes' ></iframe> 
 
 We continued our analysis by incorporating data from the reviews. We did this by filtering out filler words, such as prepositions, articles, etc. Then, we identified 88 different keywords from the reviews. The word cloud above shows how many times each word appears in the dataset. The size of each word represents how common a given word is the overall dataset, while the color of the word represents how common it is in the selected category.
 
