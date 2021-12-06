@@ -41,7 +41,16 @@ However, this still isn't exactly the most helpful in terms of our ultimate goal
 
 
 
-### Kewords Common Between Categories
+### Keywords Common Between Categories
 
 
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/climbinganalysis2/Dashboard3?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '850' height = '650' scrolling='yes' ></iframe>    
+
+As you can see above, there are different words common with different difficulties.
+If you sort the words by the "Beginner" difficulty category, you will see the words sorted by their frequency in easier routes. You can see how certain keywords pertain to different difficulties.
+For example, the word "slab" is more common with beginner routes, and becomes less common as the difficulty increases. This is due to the fact
+that "slab" references a route that is fairly straightforward and vertical, which helps to make a route easier. 
+
+On the other hand, a route with more "roof" elements is increasingly more common in harder routes,
+because a roof is more horizontal, which requires a climber to be more parallel to the ground when they climb this section. Climbing a roof requires a great deal of effort, which is why it
+seems to be associated with more challenging routes.
