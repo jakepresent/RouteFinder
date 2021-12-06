@@ -54,3 +54,14 @@ that "slab" references a route that is fairly straightforward and vertical, whic
 On the other hand, a route with more "roof" elements is increasingly more common in harder routes,
 because a roof is more horizontal, which requires a climber to be more parallel to the ground when they climb this section. Climbing a roof requires a great deal of effort, which is why it
 seems to be associated with more challenging routes.
+
+
+Crimp, Jug, Knob & Pinch, Pocket, Sloper
+As you can see in the above view, there are different types of holds that are present in the difficulty categories.
+A "hold" is a rock climbing term for the places on the rock surface that are shaped in a way for a climber to attach themselves to the route
+and propel themselves higher. 
+A crimp is a type of hold that consists of a small edge that can support the tips of a climber's fingers.
+Jugs are large, deep, concave holds that are relatively easy to grab with one or both hands.
+A knob or pinch hold can be "pinched" between a climber's fingers and thumb, and requires intense strength to grasp.
+Pockets are holes within a wall that a climber can use to insert their hand or fingers.
+Slopers are large, round holds that can be difficult to grip and do not have sharply defined edges.
