@@ -26,19 +26,18 @@ Difficulty ratings for climbing routes range from 5.0 to 5.15, with +/- or a/b/c
 
 Route descriptions entered into MountainProject are packed with rock climbing slang that, while providing great opportunities for analysis, can be difficult for a newcomer to understand. Some words will be explained along the way, and we’ve included a brief glossary at the end for the rest.
 
-### Keywords of Interest that We Identified
-
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/climbinganalysis2/Dashboard1?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '550' height = '650' scrolling='yes' ></iframe> 
-
-We began our analysis of the reviews by filtering out filler words, such as prepositions, articles, etc. Then, we identified 88 different keywords from the reviews. The number of times each word appears in the dataset is shown above.
-
-However, this still isn't exactly the most helpful in terms of our ultimate goal. We need to drill down further, so next, we identified distinct categories for the routes themselves.
 
 ### Categorizing the Routes
 
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/climbinganalysis2/Dashboard2?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '550' height = '550' scrolling='yes' ></iframe> 
 
+We began our analysis by dividing all the routes into four different cateoriges of difficulty: Beginner, Intermediate, Advanced, and Elite. As you can see in the pie chart above, each category countains a roughly equal number of routes.
 
+### Keywords of Interest that We Identified
+
+<iframe seamless frameborder="0" src="https://public.tableau.com/shared/QKP4DRBBW?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '550' height = '650' scrolling='yes' ></iframe> 
+
+We continued our analysis by incorporating data from the reviews. We did this by filtering out filler words, such as prepositions, articles, etc. Then, we identified 88 different keywords from the reviews. The word cloud above shows how many times each word appears in the dataset. The size of each word represents how common a given word is the overall dataset, while the color of the word represents how common it is in the selected category.
 
 
 ### Keywords Common Between Categories
