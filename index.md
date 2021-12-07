@@ -66,3 +66,13 @@ A **crimp** is a type of hold that consists of a small edge that can support the
 A **knob or pinch** hold can be "pinched" between a climber's fingers and thumb, and requires intense strength to grasp.
 **Pockets** are holes within a wall that a climber can use to insert their hand or fingers.
 **Slopers** are large, round holds that can be difficult to grip and do not have sharply defined edges.
+
+### Ternary Plots
+
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/ternary_plots_rockclimbing/Dashboard2?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '850' height = '550' scrolling='yes' ></iframe>  
+
+https://public.tableau.com/shared/44DQG3D45?:display_count=n&:origin=viz_share_link
+
+### Final Interactive Map
+
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/map_routes/Dashboard2?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '850' height = '550' scrolling='yes' ></iframe>    
