@@ -20,8 +20,11 @@ Using data scraped from the MountainProject database in August 2020 hosted by op
 In the rock climbing community, difficulty ratings for climbing routes range from 5.0 to 5.15, with +/- or a/b/c/d modifiers to further expand the scale. For simplicity, we’ve divided these into the following four groups:
 
 5.10a and below: Beginner
+
 5.10a/b through 5.10d: Intermediate
+
 5.11a-d: Advanced
+
 5.12a and above: Elite
 
 To learn more about what the original ratings mean, you can visit [this page](https://www.rei.com/learn/expert-advice/climbing-bouldering-rating.html).
@@ -31,13 +34,13 @@ Route descriptions entered into MountainProject are packed with rock climbing sl
 
 ### Categorizing the Routes
 
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/climbinganalysis2/Dashboard2?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '550' height = '550' scrolling='yes' ></iframe> 
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/climbinganalysis2/Dashboard2?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '550' height = '550' scrolling='yes' ></iframe>
 
 We began our analysis by dividing all the routes into four different cateoriges of difficulty: Beginner, Intermediate, Advanced, and Elite. As you can see in the pie chart above, each category countains a roughly equal number of routes.
 
 ### Keywords of Interest that We Identified
 
-<iframe seamless frameborder="0" src="https://public.tableau.com/shared/QKP4DRBBW?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '850' height = '550' scrolling='yes' ></iframe> 
+<iframe seamless frameborder="0" src="https://public.tableau.com/shared/QKP4DRBBW?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '850' height = '550' scrolling='yes' ></iframe>
 
 We continued our analysis by incorporating data from the reviews. We did this by filtering out filler words, such as prepositions, articles, etc. Then, we identified 88 different keywords from the reviews. The word cloud above shows how many times each word appears in the dataset. The size of each word represents how common a given word is the overall dataset, while the color of the word represents how common it is in the selected category.
 
@@ -49,7 +52,7 @@ We continued our analysis by incorporating data from the reviews. We did this by
 
 In the above view, if you sort the words by the "Beginner" difficulty category, you will see the words sorted by their frequency in easier routes. You can see how certain keywords pertain to different difficulties.
 For example, the word "slab" is more common with beginner routes, and becomes less common as the difficulty increases. This is due to the fact
-that "slab" references a route that is fairly straightforward and vertical, which helps to make a route easier. 
+that "slab" references a route that is fairly straightforward and vertical, which helps to make a route easier.
 
 On the other hand, a route with more "roof" elements is increasingly more common in harder routes,
 because a roof is more horizontal, which requires a climber to be more parallel to the ground when they climb this section. Climbing a roof requires a great deal of effort, which is why it
@@ -60,7 +63,7 @@ seems to be associated with more challenging routes.
 
 As you can see in the above view, there are different types of holds that are present in the difficulty categories.
 A **hold** is a rock climbing term for the places on the rock surface that are shaped in a way for a climber to attach themselves to the route
-and propel themselves higher. 
+and propel themselves higher.
 
 A **crimp** is a type of hold that consists of a small edge that can support the tips of a climber's fingers.
 **Jugs** are large, deep, concave holds that are relatively easy to grab with one or both hands.
@@ -68,18 +71,28 @@ A **knob or pinch** hold can be "pinched" between a climber's fingers and thumb,
 **Pockets** are holes within a wall that a climber can use to insert their hand or fingers.
 **Slopers** are large, round holds that can be difficult to grip and do not have sharply defined edges.
 
-### Ternary Plots
+### Climbing Skills Required
 
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/ternary_plots_rockclimbing/Dashboard2?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '1150' height = '650' scrolling='yes' ></iframe>  
+In the above ternary plots, you can view how the climbing requirements increase as the difficulty increases.
+In the beginner routes, a climber must have a basic level of endurance, technical ability, and power. In the beginner routes, the plot
+is relatively sparse, meaning that many of the beginner routes do not require these abilities.
+As the difficulty increases to Intermediate, the ternary plot reflects that the climber must have more technical ability. In particular,
+the intersection between endurance and technical ability is more pronounced, meaning that climbing an intermediate route requires 
+a climber to have both technical skills as well as adequate endurance.
+On the Advanced routes, a climber must have all three skills, with a notable increase in power ability. Challenging routes
+require dedication to hone these skills, and as you can see in the Elite category, all three skills are heavily required throughout the plot.
+Most notably, Elite routes tend to have high scores for all three abilities, shown by a large cluster of routes in the center of the plot.
 
-
-### Stacked bar charts
+### Stacked bar charts 
+#### Types of Hold
 
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/holdtype_stackedbar/HoldType?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '1100' height = '600' scrolling='yes' ></iframe> 
 
+#### Types of route shape
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/rockshape_stackedbar/RockShape?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '800' height = '600' scrolling='yes' ></iframe> 
 
 
 ### Final Interactive Map
 
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/map_routes/Dashboard2?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '850' height = '550' scrolling='yes' ></iframe>    
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/map_routes/Dashboard2?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '850' height = '550' scrolling='yes' ></iframe>
