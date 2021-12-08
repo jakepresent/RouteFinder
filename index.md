@@ -59,18 +59,6 @@ because a roof is more horizontal, which requires a climber to be more parallel 
 seems to be associated with more challenging routes.
 
 
-#### Crimp, Jug, Knob & Pinch, Pocket, Sloper
-
-As you can see in the above view, there are different types of holds that are present in the difficulty categories.
-A **hold** is a rock climbing term for the places on the rock surface that are shaped in a way for a climber to attach themselves to the route
-and propel themselves higher.
-
-A **crimp** is a type of hold that consists of a small edge that can support the tips of a climber's fingers.
-**Jugs** are large, deep, concave holds that are relatively easy to grab with one or both hands.
-A **knob or pinch** hold can be "pinched" between a climber's fingers and thumb, and requires intense strength to grasp.
-**Pockets** are holes within a wall that a climber can use to insert their hand or fingers.
-**Slopers** are large, round holds that can be difficult to grip and do not have sharply defined edges.
-
 ### Climbing Skills Required
 
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/ternary_plots_rockclimbing/Dashboard2?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '1150' height = '650' scrolling='yes' ></iframe>  
@@ -97,6 +85,17 @@ Most notably, Elite routes tend to have high scores for all three abilities, sho
 
 In the above view, you can see how the hold types vary by difficulty level. 
 
+#### Crimp, Jug, Knob & Pinch, Pocket, Sloper
+
+A **hold** is a rock climbing term for the places on the rock surface that are shaped in a way for a climber to attach themselves to the route
+and propel themselves higher.
+
+A **crimp** is a type of hold that consists of a small edge that can support the tips of a climber's fingers.
+**Jugs** are large, deep, concave holds that are relatively easy to grab with one or both hands.
+A **knob or pinch** hold can be "pinched" between a climber's fingers and thumb, and requires intense strength to grasp.
+**Pockets** are holes within a wall that a climber can use to insert their hand or fingers.
+**Slopers** are large, round holds that can be difficult to grip and do not have sharply defined edges.
+
 Crimps are a type of hold that is rather difficult to grasp, so
 crimps become more common as the difficulty increases. 
 
@@ -111,6 +110,7 @@ The elite routes predictably have the highest percentage of slopers, which makes
 #### Types of route shape
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/rockshape_stackedbar/RockShape?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '800' height = '600' scrolling='yes' ></iframe> 
 We have identified 5 different route shapes common among the routes in our dataset. In addition to slab and roof elements, common route shapes include arete, chimney, and dihedral features.
+
 **Overhang** can be considered a less extreme version of a roof, where it is a rock face angled towards the ground, but not as parallel to the ground as a roof would be.
 **Arete** routes contain an edge or outer corner along its side, while a **chimney** refers to a section of rock with at least 2 parallel faces on which a climber can place their hands and feet to leverage the opposing forces.
 **Dihedral** routes involve two intersecting faces of rock that form an angle. It can be thought of as an inside corner.
