@@ -111,6 +111,7 @@ This view highlights the different rock features that are present in the difficu
 but here we can see the overall proportions of routes in each category that contain such features. 
 
 A whopping 53.3% of elite routes contain roof or overhang elements, compared to only 27.35% of beginner routes. On the flipside, only 19.65% of elite routes are slab-shaped, compared to beginner routes' 41.68%.
+
 From this view, we can determine that it is likely that slab and chimney elements of a route help to make it easier to climb, while roof & overhang make it more difficult.
 
 As for dihedral and arete features, their presence seems to be evenly distributed among the difficulty categories. Based on that observation, it is likely that these features vary in difficulty and do not necessarily 
@@ -119,3 +120,5 @@ contribute to causing a route to be easier or harder.
 ### Final Interactive Map
 
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/map_routes/Dashboard2?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '850' height = '550' scrolling='yes' ></iframe>
+In the final map, it is now much more interactive. Using what we have learned so far about what makes a route easier or harder, you can filter the map based on hold types and rock shape, as well as by pure difficulty ratings of course.
+We hope that this final map view will allow prospective outdoor climbers to more carefully review the options that exist, and choose the right sport climbing route for themselves.
