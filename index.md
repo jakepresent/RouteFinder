@@ -74,6 +74,10 @@ A **knob or pinch** hold can be "pinched" between a climber's fingers and thumb,
 ### Climbing Skills Required
 
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/ternary_plots_rockclimbing/Dashboard2?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '1150' height = '650' scrolling='yes' ></iframe>  
+There are 3 main skill types involved in climbing a route. **Endurance** is necessary to sustain long periods of effort along a route, especially routes that are longer from start to finish. **Technical** ability refers to a climber's
+knowledge and practice of moving their body in the ideal way for the specific rock formation surrounding them. **Power** is generally associated with the climber's maximum strength, which becomes important
+in performing dynamic, fast changes in body position on a rock face.
+
 In the above ternary plots, you can view how the climbing requirements increase as the difficulty increases.
 In the beginner routes, a climber must have a basic level of endurance, technical ability, and power. The plot
 is relatively sparse, meaning that many of the beginner routes do not require these abilities.
@@ -106,6 +110,10 @@ the relative roundness of knob holds compared to pinch holds potentially makes t
 The elite routes predictably have the highest percentage of slopers, which makes sense due to slopers' tendency to be incredibly difficult to grasp. Based on this data, slopers seem to make routes harder.
 #### Types of route shape
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/rockshape_stackedbar/RockShape?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '800' height = '600' scrolling='yes' ></iframe> 
+We have identified 5 different route shapes common among the routes in our dataset. In addition to slab and roof elements, common route shapes include arete, chimney, and dihedral features.
+**Overhang** can be considered a less extreme version of a roof, where it is a rock face with angled towards the ground, but not as parallel to the ground as a roof would be.
+**Arete** refers to an edge or corner along the side of a route, while a **chimney** refers to a section of rock with at least 2 parallel faces on which a climber can place their hands and feet to leverage the opposing forces.
+**Dihedral** routes involve two intersecting faces of rock that form an angle. It can be thought of as an inside corner.
 
 This view highlights the different rock features that are present in the difficulty categories. We knew from the keywords visualization that the slab shape of a route is more common with easier routes and that roof elements are more common with difficult routes,
 but here we can see the overall proportions of routes in each category that contain such features. 
