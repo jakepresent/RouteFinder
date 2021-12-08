@@ -56,7 +56,8 @@ because a roof is more horizontal, which requires a climber to be more parallel 
 seems to be associated with more challenging routes.
 
 
-Crimp, Jug, Knob & Pinch, Pocket, Sloper
+#### Crimp, Jug, Knob & Pinch, Pocket, Sloper
+
 As you can see in the above view, there are different types of holds that are present in the difficulty categories.
 A **hold** is a rock climbing term for the places on the rock surface that are shaped in a way for a climber to attach themselves to the route
 and propel themselves higher. 
