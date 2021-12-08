@@ -91,16 +91,30 @@ Most notably, Elite routes tend to have high scores for all three abilities, sho
 
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/holdtype_stackedbar/HoldType?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '1100' height = '600' scrolling='yes' ></iframe> 
 
-In the above view, you can see how the hold types vary by difficulty level. Crimps are a type of hold that is rather difficult to grasp, so
-crimps become more common as the difficulty increases. Jugs are the opposite: since they are easy to grab,
+In the above view, you can see how the hold types vary by difficulty level. 
+
+Crimps are a type of hold that is rather difficult to grasp, so
+crimps become more common as the difficulty increases. 
+
+Jugs are the opposite: since they are easy to grab,
 jugs are common among easier routes and are less present in challenging routes. Easy routes are correlated with the presence of jugs.
+
 Interestingly, knob and pinch holds make up a greater proportion in the beginner routes than the intermediate and advanced routes. As visible in the "Keywords Separated By Category" bar graph shown earlier in this page,
 knob holds specifically are more common with easier routes, while pinch holds are more common with harder routes. Though they are a very similar type of hold which is why we grouped them together,
 the relative roundness of knob holds compared to pinch holds potentially makes them easier to grasp and therefore more likely to make a route easier. 
+
 The elite routes predictably have the highest percentage of slopers, which makes sense due to slopers' tendency to be incredibly difficult to grasp. Based on this data, slopers seem to make routes harder.
 #### Types of route shape
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/rockshape_stackedbar/RockShape?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '800' height = '600' scrolling='yes' ></iframe> 
 
+This view highlights the different rock features that are present in the difficulty categories. We knew from the keywords visualization that the slab shape of a route is more common with easier routes and that roof elements are more common with difficult routes,
+but here we can see the overall proportions of routes in each category that contain such features. 
+
+A whopping 53.3% of elite routes contain roof or overhang elements, compared to only 27.35% of beginner routes. On the flipside, only 19.65% of elite routes are slab-shaped, compared to beginner routes' 41.68%.
+From this view, we can determine that it is likely that slab and chimney elements of a route help to make it easier to climb, while roof & overhang make it more difficult.
+
+As for dihedral and arete features, their presence seems to be evenly distributed among the difficulty categories. Based on that observation, it is likely that these features vary in difficulty and do not necessarily 
+contribute to causing a route to be easier or harder.
 
 ### Final Interactive Map
 
