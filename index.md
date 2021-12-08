@@ -75,20 +75,29 @@ A **knob or pinch** hold can be "pinched" between a climber's fingers and thumb,
 
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/ternary_plots_rockclimbing/Dashboard2?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '1150' height = '650' scrolling='yes' ></iframe>  
 In the above ternary plots, you can view how the climbing requirements increase as the difficulty increases.
-In the beginner routes, a climber must have a basic level of endurance, technical ability, and power. In the beginner routes, the plot
+In the beginner routes, a climber must have a basic level of endurance, technical ability, and power. The plot
 is relatively sparse, meaning that many of the beginner routes do not require these abilities.
+
 As the difficulty increases to Intermediate, the ternary plot reflects that the climber must have more technical ability. In particular,
 the intersection between endurance and technical ability is more pronounced, meaning that climbing an intermediate route requires 
 a climber to have both technical skills as well as adequate endurance.
-On the Advanced routes, a climber must have all three skills, with a notable increase in power ability. Challenging routes
-require dedication to hone these skills, and as you can see in the Elite category, all three skills are heavily required throughout the plot.
+
+On the Advanced routes, a climber must have all three skills, with a notable increase in power ability. 
+Challenging routes require dedication to hone these skills, and as you can see in the Elite category, all three skills are heavily represented throughout the plot.
 Most notably, Elite routes tend to have high scores for all three abilities, shown by a large cluster of routes in the center of the plot.
 
-### Stacked bar charts 
+### Physical Features of Routes
 #### Types of Hold
 
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/holdtype_stackedbar/HoldType?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '1100' height = '600' scrolling='yes' ></iframe> 
 
+In the above view, you can see how the hold types vary by difficulty level. Crimps are a type of hold that is rather difficult to grasp, so
+crimps become more common as the difficulty increases. Jugs are the opposite: since they are easy to grab,
+jugs are common among easier routes and are less present in challenging routes. Easy routes are correlated with the presence of jugs.
+Interestingly, knob and pinch holds make up a greater proportion in the beginner routes than the intermediate and advanced routes. As visible in the "Keywords Separated By Category" bar graph shown earlier in this page,
+knob holds specifically are more common with easier routes, while pinch holds are more common with harder routes. Though they are a very similar type of hold which is why we grouped them together,
+the relative roundness of knob holds compared to pinch holds potentially makes them easier to grasp and therefore more likely to make a route easier. 
+The elite routes predictably have the highest percentage of slopers, which makes sense due to slopers' tendency to be incredibly difficult to grasp. Based on this data, slopers seem to make routes harder.
 #### Types of route shape
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/rockshape_stackedbar/RockShape?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '800' height = '600' scrolling='yes' ></iframe> 
 
