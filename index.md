@@ -71,7 +71,13 @@ A **knob or pinch** hold can be "pinched" between a climber's fingers and thumb,
 
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/ternary_plots_rockclimbing/Dashboard2?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '850' height = '550' scrolling='yes' ></iframe>  
 
-https://public.tableau.com/shared/44DQG3D45?:display_count=n&:origin=viz_share_link
+
+### Stacked bar charts
+
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/holdtype_stackedbar/HoldType?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '1100' height = '600' scrolling='yes' ></iframe> 
+
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/rockshape_stackedbar/RockShape?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '800' height = '600' scrolling='yes' ></iframe> 
+
 
 ### Final Interactive Map
 
