@@ -106,7 +106,7 @@ the relative roundness of knob holds compared to pinch holds potentially makes t
 
 The elite routes predictably have the highest percentage of slopers, which makes sense due to slopers' tendency to be incredibly difficult to grasp. Based on this data, slopers seem to make routes harder.
 #### Types of route shape
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/rockshape_stackedbar/RockShape?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '800' height = '600' scrolling='yes' ></iframe> 
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/rockshape_stackedbar/RockShape?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '850' height = '600' scrolling='yes' ></iframe> 
 We have identified 5 different route shapes common among the routes in our dataset. In addition to slab and roof elements, common route shapes include arete, chimney, and dihedral features.
 
 **Overhang** can be considered a less extreme version of a roof, where it is a rock face angled towards the ground, but not as parallel to the ground as a roof would be.
