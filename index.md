@@ -111,8 +111,8 @@ The elite routes predictably have the highest percentage of slopers, which makes
 #### Types of route shape
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/rockshape_stackedbar/RockShape?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '800' height = '600' scrolling='yes' ></iframe> 
 We have identified 5 different route shapes common among the routes in our dataset. In addition to slab and roof elements, common route shapes include arete, chimney, and dihedral features.
-**Overhang** can be considered a less extreme version of a roof, where it is a rock face with angled towards the ground, but not as parallel to the ground as a roof would be.
-**Arete** refers to an edge or corner along the side of a route, while a **chimney** refers to a section of rock with at least 2 parallel faces on which a climber can place their hands and feet to leverage the opposing forces.
+**Overhang** can be considered a less extreme version of a roof, where it is a rock face angled towards the ground, but not as parallel to the ground as a roof would be.
+**Arete** routes contain an edge or outer corner along its side, while a **chimney** refers to a section of rock with at least 2 parallel faces on which a climber can place their hands and feet to leverage the opposing forces.
 **Dihedral** routes involve two intersecting faces of rock that form an angle. It can be thought of as an inside corner.
 
 This view highlights the different rock features that are present in the difficulty categories. We knew from the keywords visualization that the slab shape of a route is more common with easier routes and that roof elements are more common with difficult routes,
