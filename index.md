@@ -10,7 +10,7 @@ Take a look at this map of the more than 54,000 sport climbing routes entered in
 
 Unfortunately, while this view of the data is interesting, it doesn't give our hypothetical climber much of an idea of which route to pick. With this many routes, there are likely infinite combinations of hold type, rock shape, and climbing style.  
 
-What differentiates a 5.8 from a 5.11?
+What differentiates a route with a YDS score of 83 from one with a score of 103?
 Technical skills? Raw strength? Endurance? Grip strength and form? How much of it is overcoming common fears like making dynamic moves, hanging upside down, or just a general unsafe feeling?
 
 ### The Data
