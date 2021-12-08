@@ -85,8 +85,6 @@ Most notably, Elite routes tend to have high scores for all three abilities, sho
 
 In the above view, you can see how the hold types vary by difficulty level. 
 
-#### Crimp, Jug, Knob & Pinch, Pocket, Sloper
-
 A **hold** is a rock climbing term for the places on the rock surface that are shaped in a way for a climber to attach themselves to the route
 and propel themselves higher.
 
