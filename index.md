@@ -129,4 +129,4 @@ contribute to causing a route to be easier or harder.
 
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/map_routes/Dashboard2?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '850' height = '550' scrolling='yes' ></iframe>
 Revisiting the initial map of all routes, it is now much more interactive. Using what we have learned so far about what makes a route easier or harder, you can filter the map based on hold types and rock shape, as well as by pure difficulty ratings of course.
-We hope that this final map view will allow prospective outdoor climbers to more carefully review the options that exist, and choose the right sport climbing route for themselves.
+We hope that this final map view will enable prospective outdoor climbers to more carefully review the options that exist, and choose the right sport climbing route for yourselves.
