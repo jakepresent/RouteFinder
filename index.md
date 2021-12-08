@@ -70,7 +70,7 @@ A **knob or pinch** hold can be "pinched" between a climber's fingers and thumb,
 
 ### Ternary Plots
 
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/ternary_plots_rockclimbing/Dashboard2?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '850' height = '550' scrolling='yes' ></iframe>  
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/ternary_plots_rockclimbing/Dashboard2?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '1000' height = '650' scrolling='yes' ></iframe>  
 
 
 ### Stacked bar charts
