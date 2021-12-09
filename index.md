@@ -1,6 +1,5 @@
 ## RouteFinder
-### Choosing the Right Sport Climbing Route for You
-#### by Jake Present, Kiera Berger, and Casey Boland
+### Choosing the Right Sport Climbing Route for You<br> by Jake Present, Kiera Berger, and Casey Boland
 
 What does it take to become a better sport climber? If you could teleport to any climbing area in the United States, where should you go?
 
