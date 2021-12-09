@@ -3,6 +3,8 @@
 ### by Jake Present, Kiera Berger, and Casey Boland
 
 What does it take to become a better sport climber? If you could teleport to any climbing area in the United States, where should you go?
+What differentiates a route with a beginner level YDS (Yosemite Decimal System) rating from one an advanced climber can send?
+Is it technical skills? Raw strength? Endurance? Grip strength and form? Using data scraped from the MountainProject database in August 2020 and hosted by openbeta.io, we've analyzed the climber-entered descriptions for each route to determine what skills a climber needs to possess to successfully climb at a higher level.
 
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/map_routes/Dashboard1?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '850' height = '550' scrolling='yes' ></iframe>    
 
@@ -11,43 +13,34 @@ The distribution of the route locations is not exactly surprising, with the vast
 
 Unfortunately, while this view of the data is interesting, it doesn't give our hypothetical climber much of an idea of which route to pick. With this many routes, there are likely infinite combinations of hold type, rock shape, and climbing style.  
 
-What differentiates a route with a YDS score of 83 from one with a score of 103?
-Technical skills? Raw strength? Endurance? Grip strength and form? How much of it is overcoming common fears like making dynamic moves, hanging upside down, or just a general unsafe feeling?
-
 ### The Data
-
-Using data scraped from the MountainProject database in August 2020 hosted by openbeta.io, we've analyzed the climber-entered descriptions for each route to determine what skills a climber needs to possess to successfully climb at a higher level.
 
 In the rock climbing community, difficulty ratings for climbing routes range from 5.0 to 5.15, with +/- or a/b/c/d modifiers to further expand the scale. For simplicity, we’ve divided these into the following four groups:
 
-5.10a and below: Beginner
+5.10a and below: **Beginner**
 
-5.10a/b through 5.10d: Intermediate
+5.10a/b through 5.10d: **Intermediate**
 
-5.11a-d: Advanced
+5.11a-d: **Advanced**
 
-5.12a and above: Elite
+5.12a and above: **Elite**
 
 To learn more about what the original ratings mean, you can visit [this page](https://www.rei.com/learn/expert-advice/climbing-bouldering-rating.html).
 
-Route descriptions entered into MountainProject are packed with rock climbing slang that, while providing great opportunities for analysis, can be difficult for a newcomer to understand. Some words will be explained along the way, and we’ve included a brief glossary at the end for the rest.
-
-
-### Categorizing the Routes
-
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/climbinganalysis2/Dashboard2?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '550' height = '550' scrolling='yes' ></iframe>
 
-We began our analysis by dividing all the routes into four different cateoriges of difficulty: Beginner, Intermediate, Advanced, and Elite. As you can see in the pie chart above, each category countains a roughly equal number of routes.
+As you can see in the pie chart above, each category countains a roughly equal number of routes.
 
-### Keywords of Interest that We Identified
+### Keywords of Potential Interest
+
+Route descriptions entered into MountainProject are packed with rock climbing slang that, while providing great opportunities for analysis, can be difficult for a newcomer to understand. Some words will be explained along the way, and we’ve included a brief glossary at the end for the rest. After filtering out filler words, such as prepositions, articles, etc. from the route descriptions, we identified 88 words as potentially interesting and useful for our analysis. Some common words, like "angle," were excluded because they could have a wide range of meanings depending on context.
 
 <iframe seamless frameborder="0" src="https://public.tableau.com/shared/QKP4DRBBW?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '850' height = '550' scrolling='yes' ></iframe>
 
-We continued our analysis by incorporating data from the reviews. We did this by filtering out filler words, such as prepositions, articles, etc. Then, we identified 88 different keywords from the reviews. The word cloud above shows how many times each word appears in the dataset. The size of each word represents how common a given word is the overall dataset, while the color of the word represents how common it is in the selected category.
+The word cloud above shows how many times each word appears in the dataset. The size of each word represents how common a given word is the overall dataset, while the color of the word represents how common it is in the selected category.
 
 
 ### Keywords Common Between Categories
-
 
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/climbinganalysis2/Dashboard3?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '850' height = '650' scrolling='yes' ></iframe>    
 
@@ -62,29 +55,23 @@ seems to be associated with more challenging routes.
 
 ### Climbing Skills Required
 
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/ternary_plots_rockclimbing/Dashboard2?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '1150' height = '650' scrolling='yes' ></iframe>  
 There are 3 main skill types involved in climbing a route. **Endurance** is necessary to sustain long periods of effort along a route, especially routes that are longer from start to finish. **Technical** ability refers to a climber's
 knowledge and practice of moving their body in the ideal way for the specific rock formation surrounding them. **Power** is generally associated with the climber's maximum strength, which becomes important
 in performing dynamic, fast changes in body position on a rock face.
 
-In the above ternary plots, you can view how the climbing requirements increase as the difficulty increases.
+Twenty-four of our selected keywords have a clear association to one or more climbing styles. We used these words to calculate a Technical Score, Power Score, and Endurance score for each route. Representing these scores as a percent of the total score for a route, we can visualize the style trends in the ternary plots below. The score quality represents the total score for a route (range 2.1 - 103.4), with higher scores indicating that a route description includes words with stronger association to style such as the literal style word.
+
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/ternary_plots_rockclimbing/Dashboard2?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '850' height = '650' scrolling='yes' ></iframe>  
+
+Click the buttons along the bottom to view how the climbing requirements change as the difficulty increases.
 In the beginner routes, a climber must have a basic level of endurance, technical ability, and power. The plot
-is relatively sparse, meaning that many of the beginner routes do not require these abilities.
+is relatively sparse, meaning that many of the beginner routes do not utilize these skills enough to warrant inclusion in the description.
 
-As the difficulty increases to Intermediate, the ternary plot reflects that the climber must have more technical ability. In particular,
-the intersection between endurance and technical ability is more pronounced, meaning that climbing an intermediate route requires 
-a climber to have both technical skills as well as adequate endurance.
+As the difficulty increases, so do the number of routes that use description words associated with one or more of these styles. Challenging routes require dedication to hone these skills, and as you can see in the Elite category, all three skills are heavily represented throughout the plot. Perhaps more notable, however, is the concentration of routes in the center. While there are very few balanced routes at the beginner level, more difficult routes are most likely to require a combinationn of two or even all three skills.
 
-On the Advanced routes, a climber must have all three skills, with a notable increase in power ability. 
-Challenging routes require dedication to hone these skills, and as you can see in the Elite category, all three skills are heavily represented throughout the plot.
-Most notably, Elite routes tend to have high scores for all three abilities, shown by a large cluster of routes in the center of the plot.
 
 ### Physical Features of Routes
 #### Types of Hold
-
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/holdtype_stackedbar/HoldType?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '1100' height = '600' scrolling='yes' ></iframe> 
-
-In the above view, you can see how the hold types vary by difficulty level. 
 
 A **hold** is a rock climbing term for the places on the rock surface that are shaped in a way for a climber to attach themselves to the route
 and propel themselves higher.
@@ -94,6 +81,11 @@ A **crimp** is a type of hold that consists of a small edge that can support the
 A **knob or pinch** hold can be "pinched" between a climber's fingers and thumb, and requires intense strength to grasp.
 **Pockets** are holes within a wall that a climber can use to insert their hand or fingers.
 **Slopers** are large, round holds that can be difficult to grip and do not have sharply defined edges.
+
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/holdtype_stackedbar/HoldType?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '850' height = '600' scrolling='yes' ></iframe> 
+
+In the above view, you can see how the hold types vary by difficulty level. 
+Click on the buttons to the right to change which hold type is lined up along the x axis.
 
 Crimps are a type of hold that is rather difficult to grasp, so
 crimps become more common as the difficulty increases. 
@@ -106,17 +98,18 @@ knob holds specifically are more common with easier routes, while pinch holds ar
 the relative roundness of knob holds compared to pinch holds potentially makes them easier to grasp and therefore more likely to make a route easier. 
 
 The elite routes predictably have the highest percentage of slopers, which makes sense due to slopers' tendency to be incredibly difficult to grasp. Based on this data, slopers seem to make routes harder.
-#### Types of route shape
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/rockshape_stackedbar/RockShape?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '850' height = '600' scrolling='yes' ></iframe> 
+
+#### Types of rock shape
+
 We have identified 5 different route shapes common among the routes in our dataset. In addition to slab and roof elements, common route shapes include arete, chimney, and dihedral features.
+
+![](rocks.png)
 
 **Overhang** can be considered a less extreme version of a roof, where it is a rock face angled towards the ground, but not as parallel to the ground as a roof would be.
 **Arete** routes contain an edge or outer corner along its side, while a **chimney** refers to a section of rock with at least 2 parallel faces on which a climber can place their hands and feet to leverage the opposing forces.
 **Dihedral** routes involve two intersecting faces of rock that form an angle. It can be thought of as an inside corner.
 
-As a guide to the viewer, we have included drawings to explain each of these below:
-
-![](rocks.png)
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/rockshape_stackedbar/RockShape?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '850' height = '600' scrolling='yes' ></iframe> 
 
 This view highlights the different rock features that are present in the difficulty categories. We knew from the keywords visualization that the slab shape of a route is more common with easier routes and that roof elements are more common with difficult routes,
 but here we can see the overall proportions of routes in each category that contain such features. 
@@ -128,9 +121,10 @@ From this view, we can determine that it is likely that slab and chimney element
 As for dihedral and arete features, their presence seems to be evenly distributed among the difficulty categories. Based on that observation, it is likely that these features vary in difficulty and do not necessarily 
 contribute to causing a route to be easier or harder.
 
-### Final Interactive Map
+### RouteFinder: An Interactive Map
 
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/map_routes/Dashboard2?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '850' height = '550' scrolling='yes' ></iframe>
 Revisiting the initial map of all routes, it is now much more interactive. Using what we have learned so far about what makes a route easier or harder, you can filter the map based on hold types and rock shape, as well as by pure difficulty ratings of course. Also, you'll notice that a small jitter has been applied for routes in the same location, so all should be visible if you zoom in.
 
-We hope that this final map view will enable prospective outdoor climbers to more carefully review the options that exist, and choose the right sport climbing route for yourselves.
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/map_routes/Dashboard2?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '850' height = '550' scrolling='yes' ></iframe>
+
+Ultimately, each climber is unique and likely has or will develop their own personal preferences regarding what they'd like to climb. We hope that this final map view will enable prospective outdoor climbers to review potential spots with more information than just the difficulty level and choose the right sport climbing route for themselves.
