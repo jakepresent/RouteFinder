@@ -4,8 +4,6 @@
 
 What does it take to become a better sport climber? If you could teleport to any climbing area in the United States, where should you go?
 
-### Map View
-
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/map_routes/Dashboard1?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '850' height = '550' scrolling='yes' ></iframe>    
 
 Take a look at this map of the more than 54,000 sport climbing routes entered in MountainProject, with the color of each point corresponding to the difficulty rating assigned to it. In the rock climbing world, a low YDS rank corresponds to an easier route, while the routes with higher YDS ranks are more challenging.
