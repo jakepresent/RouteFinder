@@ -114,6 +114,10 @@ We have identified 5 different route shapes common among the routes in our datas
 **Arete** routes contain an edge or outer corner along its side, while a **chimney** refers to a section of rock with at least 2 parallel faces on which a climber can place their hands and feet to leverage the opposing forces.
 **Dihedral** routes involve two intersecting faces of rock that form an angle. It can be thought of as an inside corner.
 
+As a guide to the viewer, we have included drawings to explain each of these below:
+
+![](rocks.png)
+
 This view highlights the different rock features that are present in the difficulty categories. We knew from the keywords visualization that the slab shape of a route is more common with easier routes and that roof elements are more common with difficult routes,
 but here we can see the overall proportions of routes in each category that contain such features. 
 
