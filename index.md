@@ -3,8 +3,11 @@
 ### by Jake Present, Kiera Berger, and Casey Boland
 
 What does it take to become a better sport climber? If you could teleport to any climbing area in the United States, where should you go?
+
 What differentiates a route with a beginner level YDS (Yosemite Decimal System) rating from one an advanced climber can send?
-Is it technical skills? Raw strength? Endurance? Grip strength and form? Using data scraped from the MountainProject database in August 2020 and hosted by openbeta.io, we've analyzed the climber-entered descriptions for each route to determine what skills a climber needs to possess to successfully climb at a higher level.
+Is it technical skills? Raw strength? Endurance? Grip strength and form? 
+
+Using data scraped from the MountainProject database in August 2020 and hosted by openbeta.io, we've analyzed the climber-entered descriptions for each route to determine what skills a climber needs to possess to successfully climb at a higher level.
 
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/map_routes/Dashboard1?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '850' height = '550' scrolling='yes' ></iframe>    
 
@@ -33,7 +36,9 @@ As you can see in the pie chart above, each category countains a roughly equal n
 
 ### Keywords of Potential Interest
 
-Route descriptions entered into MountainProject are packed with rock climbing slang that, while providing great opportunities for analysis, can be difficult for a newcomer to understand. Some words will be explained along the way, and we’ve included a brief glossary at the end for the rest. After filtering out filler words, such as prepositions, articles, etc. from the route descriptions, we identified 88 words as potentially interesting and useful for our analysis. Some common words, like "angle," were excluded because they could have a wide range of meanings depending on context.
+Route descriptions entered into MountainProject are packed with rock climbing slang that, while providing great opportunities for analysis, can be difficult for a newcomer to understand. Some words will be explained along the way, and we’ve included a brief glossary at the end for the rest. 
+
+After filtering out filler words, such as prepositions, articles, etc. from the route descriptions, we identified 88 words as potentially interesting and useful for our analysis. Some common words, like "angle," were excluded because they could have a wide range of meanings depending on context.
 
 <iframe seamless frameborder="0" src="https://public.tableau.com/shared/QKP4DRBBW?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '850' height = '550' scrolling='yes' ></iframe>
 
