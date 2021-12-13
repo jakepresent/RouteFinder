@@ -32,7 +32,7 @@ To learn more about what the original ratings mean, you can visit [this page](ht
 
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/climbinganalysis2/Dashboard2?:language=en-US&embed=yes&:display_count=yes&:showVizHome=no" width = '550' height = '550' scrolling='yes' ></iframe>
 
-As you can see in the pie chart above, each category countains a roughly equal number of routes.
+As you can see in the pie chart above, each category contains a roughly equal number of routes.
 
 ### Keywords of Potential Interest
 
